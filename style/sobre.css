@@ -1,71 +1,71 @@
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    margin: 0;
-    gap: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0;
+  gap: 48px;
 }
 
 main .top {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 main .box {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 main iframe {
-    width: 50vw;
-    height: 65vh;
+  width: 50vw;
+  height: 65vh;
 }
 
 @media screen and (max-width: 768px) {
-    main .top h1 {
-        font-size: 24px;
-    }
+  main .top h1 {
+    font-size: 24px;
+  }
 
-    main .top p {
-        font-size: 12px;
-    }
+  main .top p {
+    font-size: 12px;
+  }
 
-    main iframe {
-        width: 90vw;
-    }
+  main iframe {
+    width: 90vw;
+  }
 }
 
 table {
-    width: 100%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .6);
-    border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+  border-collapse: collapse;
 }
 
 table thead {
-    background-color: rgb(226, 43, 43);
+  background-color: rgb(226, 43, 43);
 }
 
 table thead tr th {
-    color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 7px 10px;
-    font-weight: 400;
-    letter-spacing: 0.75px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 7px 10px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
 }
 
 table tr {
-    transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 table tr:hover {
-    background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 table td {
-    padding: 7px 10px;
-    color: #222;
+  padding: 7px 10px;
+  color: #222;
 }
